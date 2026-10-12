@@ -23,15 +23,23 @@ Talking to classmates about class material, assignment requirements, etc. is a g
 
 (a) Basic features
 
+1. At least one image
+2. Multiple pages with appropriate navigation
+3. Semantic HTML tags
+4. Links to external pages
 
 
 (b) CSS features
 
-
+1. Modyfying padding and margins to undern content and enhance visibility
+2. Modifying link, text color, or other colors to be visually appealing
+3. Adding custom font(s) from Google fonts to add more personality
 
 (c) Advanced features
 
-
+1. Navigation background
+2. HTML Contact form
+3. 
 
 
 3. Did you ignore any of the warnings or errors presented by the accessibility checker? If so, why does this not seem like an accessibility concern? If it's useful, you can consolidate your thoughts on multiple warnings/errors if the rationale is similar.
