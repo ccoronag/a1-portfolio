@@ -1,0 +1,217 @@
+html {
+    scroll-behavior: smooth;
+    font-family: "Kulim Park", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    color: white;
+}
+
+h1 {
+    margin: 0;
+}
+
+nav {
+    height: 6vh;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background-color: rgba(164, 164, 164, 0);
+    position: absolute;
+    width: 100%;
+    
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+#nav_links {
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 3%;
+    font-weight: 500;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    height: 100vh;
+    /* background-color: rgb(56, 56, 56); */
+    background-image: linear-gradient(45deg, black, rgb(54, 15, 15));
+    
+}
+
+#about_container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+#about_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: left;
+    /* outline: 1px solid blue; */
+    width: 30%;
+}
+
+#about_text h1 {
+    font-size: 500%;
+}
+
+#about_text p {
+    font-size: 150%;
+}
+
+#about_images {
+    width: 40%;
+    aspect-ratio: 1/1;
+    background-color: rgba(0, 0, 0, 0);
+    /* border-radius: 100%; */
+    transition: all 0.2s;
+    position: relative;
+}
+
+#park {
+    width: 60%;
+    position: absolute;
+
+}
+
+#dogs {
+    width: 63%;
+    position: absolute;
+    bottom: 0;
+    left: -5%;
+    z-index: 1;
+}
+
+#vinyl {
+    width: 50%;
+    position: absolute;
+    right: -5%;
+    top: 15%;
+    /* z-index: -1; */
+}
+
+#about_images img {
+    transition: 1s all;
+}
+
+#about_images img:hover {
+    transform: scale(1.05);
+    box-shadow: 10px 10px 20px 5px rgba(0, 0, 0, 0.272)
+}
+
+footer {
+    width: 100%;
+    height: 50vh;
+    background-color: rgb(13, 13, 13);
+}
+
+footer h1 {
+    font-size: 350%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#email {
+    padding: 20px;
+    margin: 20px;
+}
+
+#name {
+    padding: 20px;
+    margin: 20px;
+}
+
+#submit_button {
+    width: 30%;
+    padding: 10px;
+}
+
+#contact_container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.button {
+    background-color: black;
+    border-radius: 50px;
+    padding: 20px 50px;
+    color: white;
+    width: fit-content;
+    font-size: 120%;
+    transition: 0.2s ease-in-out;
+}
+
+.button:hover {
+    background-color: rgba(255, 255, 255, 0.422);
+    cursor: pointer;
+    color: black;
+    font-weight: 500;
+}
+
+@media (max-width:1000px) {
+    header {
+        height: 62vh;
+    }
+    #about_container {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+    }
+    #about_text {
+        width: 80%;
+    }
+    #about_images {
+        width: 80%;
+    }
+    nav {
+        height: 8vh;
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        background-color: rgb(34, 34, 34);
+        width: 100%;
+        position: fixed;
+        /* outline: 1px solid purple; */
+        position: static;
+    }
+    nav a{
+        font-size: 150%;
+    }
+    #nav_links {
+        width: 60%;
+        display: flex;
+        justify-content: space-between;
+        font-weight: 500;
+    }
+    footer {
+        height: 30vh;
+    }
+}
