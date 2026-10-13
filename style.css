@@ -101,6 +101,7 @@ header {
 }
 
 #header_image {
+    max-width: 50%;
     width: 40%;
     aspect-ratio: 1/1;
     background-color: black;
@@ -163,7 +164,7 @@ form {
     
 }
 
-@media (max-width:1000px) {
+@media (max-width:1032px) {
     header {
         height: 62vh;
     }

@@ -71,7 +71,7 @@ section p {
 }
 
 #streaming_images {
-    width: 45%;
+    max-width: 45%;
     aspect-ratio: 1/1;
     background-color: rgba(0, 0, 0, 0);
     display: flex;
@@ -110,7 +110,7 @@ section p {
 }
 
 #gf_images {
-    width: 45%;
+    max-width: 45%;
     aspect-ratio: 1/1;
     background-color: rgba(0, 0, 0, 0);
     display: flex;
@@ -158,7 +158,7 @@ section p {
 }
 
 #fabflix_images {
-    width: 40%;
+    max-width: 40%;
     aspect-ratio: 1/1;
     background-color: rgba(0, 0, 0, 0);
     display: flex;
@@ -241,7 +241,7 @@ form {
     
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1032px) {
     
     section {
         height: 60vh;
@@ -305,7 +305,6 @@ form {
         align-items: center;
         background-color: rgb(34, 34, 34);
         width: 100%;
-        position: fixed;
         position: static;
     }
     nav a{
