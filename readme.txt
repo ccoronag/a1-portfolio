@@ -44,6 +44,11 @@ Talking to classmates about class material, assignment requirements, etc. is a g
 3. Did you ignore any of the warnings or errors presented by the accessibility checker? If so, why does this not seem like an accessibility concern? If it's useful, you can consolidate your thoughts on multiple warnings/errors if the rationale is similar.
 I ignored the warning in work.html regarding the use of h1 tags as non top-level heading only. This is because the flow of the page sometimes may not have the h1 at the top of the children list but still represents the content of that section. When minimized, the h1 that would be out of order is flipped using "flex-direction: column-reverse" to the right orientation.
 
+Additionally, I ignored all of the potential problems, since many of the issues are irrelevant to the type of content displayed. Many of the errors revolve around text direction, quotes, or general language issues. Because the portfolio is in english (as specified in the html tag) and there are no foreign languages or quotations, these are not of concern.
+Another potential problem that showed up was the nav being mistaken for a list, and <a> tag text being vague, which does not apply here since they accurately take the viewer to the appropriate sections.
+Many of the images used were not decorative, but they were listed as potential problems for having alt text. Other warnings mention alt context not conveying the information in the image, which is incorrect.
+Lastly, there were some issues with the contact form, but these issues seem to be mistakenly triggered, since they refer to the lack of "required" tags and matching input ids to label "for" tags.
+
 
 4. How long, in hours, did it take you to complete this assignment?
 
