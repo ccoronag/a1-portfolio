@@ -11,13 +11,13 @@ Talking to classmates about class material, assignment requirements, etc. is a g
 1. How many assignment points do you believe you completed (replace the *'s with your numbers)?
 
 */10
-- */1 Readme
-- */2 Basic HTML content
-- */1 Basic CSS styling
-- */1 Advanced feature
-- */2 Responsive layout
-- */1 Passes validation checks
-- */2 Embraces spirit of the assignment
+- 1/1 Readme
+- 2/2 Basic HTML content
+- 1/1 Basic CSS styling
+- 1/1 Advanced feature
+- 2/2 Responsive layout
+- 1/1 Passes validation checks
+- 2/2 Embraces spirit of the assignment
 
 2. What (a) basic features, (b) CSS features, and (c) advanced features did you include in your portfolio?
 
@@ -51,16 +51,19 @@ Lastly, there were some issues with the contact form, but these issues seem to b
 
 
 4. How long, in hours, did it take you to complete this assignment?
-
+This assignment took about 7 hours of accumulated work to complete
 
 
 5. What online resources did you consult when completing this assignment? (list specific URLs, describe queries to Generative AI, or use of AI-based code completion)
-
+- https://www.w3schools.com/cssref/atrule_media.php
+- https://www.w3schools.com/html/tryit.asp?filename=tryhtml_form_submit
+- https://www.w3schools.com/html/html_forms.asp
+- Google Searches: "background image css", "img tag", "resize img tag without losing original aspect ratio", "placeholder text in form field", "all position values in css"
 
 
 6. What classmates or other individuals did you consult as part of this assignment? What did you discuss?
-
+Diego Nunez - CSS behavior of divs and widths
 
 
 7. Is there anything special we need to know in order to run your code?
-
+Did not use anything outside of HTML and CSS
