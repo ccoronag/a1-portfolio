@@ -106,10 +106,14 @@ header {
     background-color: black;
     border-radius: 100%;
     transition: all 0.2s;
-    background-image: url("Headshot.JPG");
-    background-repeat: no-repeat;
-    background-position: center; 
-    background-size: cover;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#header_image img {
+    width: 100%;
 }
 
 #header_image:hover {
