@@ -61,7 +61,6 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    align-items: left;
     /* outline: 1px solid blue; */
     width: 30%;
 }

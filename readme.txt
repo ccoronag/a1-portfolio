@@ -31,19 +31,18 @@ Talking to classmates about class material, assignment requirements, etc. is a g
 
 (b) CSS features
 
-1. Modyfying padding and margins to undern content and enhance visibility
+1. Modyfying padding and margins to indent content and enhance visibility
 2. Modifying link, text color, or other colors to be visually appealing
 3. Adding custom font(s) from Google fonts to add more personality
 
 (c) Advanced features
 
-1. Navigation background
+1. Navigation bar
 2. HTML Contact form
-3. 
 
 
 3. Did you ignore any of the warnings or errors presented by the accessibility checker? If so, why does this not seem like an accessibility concern? If it's useful, you can consolidate your thoughts on multiple warnings/errors if the rationale is similar.
-
+I ignored the warning in work.html regarding the use of h1 tags as non top-level heading only. This is because the flow of the page sometimes may not have the h1 at the top of the children list but still represents the content of that section. When minimized, the h1 that would be out of order is flipped using "flex-direction: column-reverse" to the right orientation.
 
 
 4. How long, in hours, did it take you to complete this assignment?
